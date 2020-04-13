@@ -27,9 +27,7 @@ class HomePage extends React.Component {
         <HomePageTemplate home={home} />
 
         <div className="outer">
-          <div className="post-feed-title inner">
-            My latest articles on Dev.to 🤓
-          </div>
+          <div className="post-feed-title inner">Latest Dev.to posts 💚</div>
           <DevtoArticlesPaginated pageLimit={5} maxPages={6} />
         </div>
       </Layout>
