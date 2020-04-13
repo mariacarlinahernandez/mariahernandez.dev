@@ -1,0 +1,29 @@
+.entryAvatar,
+.entryContent {
+    display: block;
+    float: none;
+}
+.entry {
+    border-bottom: 1px solid #ccc;
+    border-collapse: collapse;
+    display: flex;
+    margin-top: 1em;
+    padding-bottom: 1.5em;
+    width: 100%;
+}
+.entryAvatar {
+    align-self: center;
+    padding-right: 1em;
+    width: 30%;
+}
+.entryAvatar img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.entryContent {
+    width: 70%;
+}
+.entryHeader {
+    margin: 10px 0 0 0;
+}

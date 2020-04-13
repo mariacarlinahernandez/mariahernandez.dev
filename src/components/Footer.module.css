@@ -1,0 +1,26 @@
+.content {
+    position: relative;
+}
+.siteFooter {
+    padding-bottom: 1.66667em;
+    padding-top: 1.66667em;
+}
+.siteInfo {
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.outer {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+@media only screen and (min-width: 1141px) {
+    .outer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

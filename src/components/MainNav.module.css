@@ -1,0 +1,129 @@
+.iconMore {
+  background: currentColor;
+  border-radius: 2px;
+  color: inherit;
+  left: 50%;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  width: 24px;
+  transform: translate(-50%, -50%);
+}
+.iconMore:before,
+.iconMore:after {
+  background: currentColor;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.iconMore:before {
+  border-radius: 2px;
+  margin-left: -6px;
+}
+.iconMore:after {
+  border-radius: 2px;
+  margin-left: 6px;
+}
+.mainNavigation {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+}
+.menu {
+  flex: 1 1 auto;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu-item {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 25px 0 0;
+  padding-bottom: 4px;
+}
+.menu-item:hover {
+  border-bottom: 1px solid #4ac93e;
+}
+
+.screenReaderText {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+}
+.sidebarShow {
+}
+.sidebarToggle {
+  border-radius: 100%;
+  height: 48px;
+  padding: 0;
+  width: 48px;
+}
+.siteBranding {
+  flex: 0 0 auto;
+  margin-right: 30px;
+  -ms-flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
+}
+.siteHeader {
+  background: #f9f9fb;
+  border-bottom: 1px solid #e5e7e9;
+  margin: 0 0 3.333em;
+  padding-bottom: 1.111em;
+  padding-top: 1.111em;
+}
+.siteHeaderHero {
+  background: 0;
+  border: 0;
+  margin: 0;
+  position: relative;
+}
+.siteHeader a {
+  color: #2f313d;
+}
+.siteHeader a:hover {
+  color: #4ac93e;
+}
+.siteHeader .sidebarToggle {
+  flex: 0 0 auto;
+  margin-left: auto;
+  position: relative;
+}
+.siteHeaderContent {
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.siteLogo {
+  margin: 0;
+}
+.siteLogo img {
+  border: 1px solid #c3c4c5;
+  border-radius: 50%;
+  max-height: 48px;
+}
+.siteLogo img:hover {
+  box-shadow: 0 0 1px 7px rgba(46, 204, 59, 0.25);
+  outline: 0;
+}
+.outer {
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+@media only screen and (min-width: 1141px) {
+  .outer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

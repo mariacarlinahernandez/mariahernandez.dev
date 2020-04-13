@@ -1,0 +1,20 @@
+.pagination {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.pagination span {
+  padding: 8px 16px;
+}
+.pagination span.active {
+  border-bottom: 1px solid #4ac93e;
+}
+.pagination span:not(.active):hover {
+  background: #4ac93e80;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}

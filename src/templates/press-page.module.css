@@ -1,0 +1,4 @@
+.pressEntries {
+    display: flex;
+    flex-wrap: wrap;
+}
