@@ -1,6 +1,6 @@
 ---
 templateKey: blog-page
-title: Di's Blog
+title: Karo's Blog
 path: /blog
 menuLabel: Blog
 menuIndex: 7
