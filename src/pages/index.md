@@ -1,6 +1,6 @@
 ---
 templateKey: home-page
-title: superdi.dev
+title: Karobot!
 headingBg: /assets/hero.jpg
 profileImg: /assets/avatar.jpg
 heading: karobot.co
