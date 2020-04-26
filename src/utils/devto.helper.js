@@ -7,7 +7,7 @@ const client = axios.create({
 
 export const getDevArticles = async () => {
   try {
-    const response = await client.get(`articles?username=karobot&page=1`)
+    const response = await client.get(`articles?username=makahernandez&page=1`)
     return response.data
   } catch (err) {
     console.log("ERROR:", err)

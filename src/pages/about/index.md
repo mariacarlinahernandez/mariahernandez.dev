@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 title: __about__.py
-secondTitle: Karo Ladino
+secondTitle: Maria Hernández
 image: /assets/avatar.jpg
 path: /about
 menuLabel: About

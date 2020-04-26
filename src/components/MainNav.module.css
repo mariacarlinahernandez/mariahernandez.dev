@@ -46,7 +46,7 @@
   padding-bottom: 4px;
 }
 .menu-item:hover {
-  border-bottom: 1px solid #4ac93e;
+  border-bottom: 1px solid #ff73fd;
 }
 
 .screenReaderText {
@@ -89,7 +89,7 @@
   color: #2f313d;
 }
 .siteHeader a:hover {
-  color: #4ac93e;
+  color: #ff73fd;
 }
 .siteHeader .sidebarToggle {
   flex: 0 0 auto;

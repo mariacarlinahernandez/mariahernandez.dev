@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `karobot.co`,
-    author: `Karo Ladino`,
-    description: `Loving @pyladies_co, Hardware hacker and teacher, Robotics, Art, Revolution. Ella/Her/She.`,
+    title: `mariahernandez.dev`,
+    author: `Maria Hernández`,
+    description: `Maria is a maker at heart. With a background in Electrical Engineering, she is constantly learning, sharing, and experimenting with the latest IoT technologies out there.`,
     image: "/assets/avatar.jpg",
-    siteUrl: `https://karobot.co/`,
+    siteUrl: `https://mariahernandez.dev/`,
     social: {
-      twitter: `karobotco`,
+      twitter: `makahernandez`,
     },
   },
   plugins: [
@@ -94,11 +94,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `karobot.co`,
-        short_name: `karobot.co`,
+        name: `mariahernandez.dev`,
+        short_name: `mariahernandez.dev`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#4ac93e`,
+        theme_color: `#ff73fd`,
         display: `minimal-ui`,
         icon: `static/assets/avatar.jpg`,
       },

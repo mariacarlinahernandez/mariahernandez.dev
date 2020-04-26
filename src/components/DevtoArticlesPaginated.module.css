@@ -9,10 +9,10 @@
   padding: 8px 16px;
 }
 .pagination span.active {
-  border-bottom: 1px solid #4ac93e;
+  border-bottom: 1px solid #ff73fd;
 }
 .pagination span:not(.active):hover {
-  background: #4ac93e80;
+  background: #ff73fd;
   border-radius: 5px;
   color: #fff;
   cursor: pointer;

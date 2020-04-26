@@ -1,7 +1,7 @@
 .avatar {
-  border: 4px solid #4ac93e;
+  border: 4px solid #ff73fd;
   border-radius: 100%;
-  box-shadow: 0 0 1px 11px rgb(132, 250, 122), 0 0 1px 22px rgb(181, 246, 174);
+  box-shadow: 0 0 1px 11px rgb(236, 163, 220), 0 0 1px 22px rgb(233, 173, 235);
   display: inline-block;
   height: 130px;
   width: 130px;
@@ -86,7 +86,7 @@
   width: 36px;
 }
 .socialLinks a:hover {
-  background: #4ac93e;
+  background: #ff73fd;
   box-shadow: 0 0 1px 7px rgba(156, 245, 140, 0.15);
   color: #fff;
 }

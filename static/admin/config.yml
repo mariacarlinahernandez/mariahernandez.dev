@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: karobotco/karobot.co
+  repo: mariacarlinahernandez/mariahernandez.dev
   branch: master
 
 media_folder: "static/assets"
@@ -14,7 +14,7 @@ slug:
 collections:
   - name: "blog"
     label: "Blog"
-    folder: 'content/blog'
+    folder: "content/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
@@ -23,7 +23,12 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Post Image", name: "image", widget: "image", allow_multiple: false }
+      - {
+          label: "Post Image",
+          name: "image",
+          widget: "image",
+          allow_multiple: false,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "metadata"
     label: "Site Metadata"
@@ -37,15 +42,16 @@ collections:
           - { label: "Description", name: "description", widget: "string" }
           - { label: "Copyright Year", name: "copyrightYear", widget: "string" }
           - {
-            label: "Social Links",
-            name: "socialLinks",
-            widget: "list",
-            fields: [
-            { label: "Icon FontAwesome", name: "icon", widget: "string" },
-            { label: "Label", name: "label", widget: "string" },
-            { label: "Link URL", name: "linkURL", widget: "string" }
-            ]
-          }
+              label: "Social Links",
+              name: "socialLinks",
+              widget: "list",
+              fields:
+                [
+                  { label: "Icon FontAwesome", name: "icon", widget: "string" },
+                  { label: "Label", name: "label", widget: "string" },
+                  { label: "Link URL", name: "linkURL", widget: "string" },
+                ],
+            }
   - name: "pages"
     label: "Pages"
     files:
@@ -53,95 +59,204 @@ collections:
         file: "src/pages/index.md"
         label: "Home"
         fields:
-          - { label: "Template key", name: "templateKey", widget: "hidden", default: "home-page" }
+          - {
+              label: "Template key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "home-page",
+            }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Heading Background", name: "headingBg", widget: "image" }
           - { label: "Profile image", name: "profileImg", widget: "image" }
           - { label: "Heading", name: "heading", widget: "string" }
           - { label: "Headline", name: "headline", widget: "markdown" }
           - { label: "Menu Label", name: "menuLabel", widget: "string" }
-          - { label: "Menu Order", name: "menuIndex", widget: "number", valueType: "int", default: 1 }
           - {
-            label: "Social Links",
-            name: "socialLinks",
-            widget: "list",
-            fields: [
-            { label: "Icon FontAwesome", name: "icon", widget: "string" },
-            { label: "Label", name: "label", widget: "string" },
-            { label: "Link URL", name: "linkURL", widget: "string" }
-            ]
-          }
+              label: "Menu Order",
+              name: "menuIndex",
+              widget: "number",
+              valueType: "int",
+              default: 1,
+            }
+          - {
+              label: "Social Links",
+              name: "socialLinks",
+              widget: "list",
+              fields:
+                [
+                  { label: "Icon FontAwesome", name: "icon", widget: "string" },
+                  { label: "Label", name: "label", widget: "string" },
+                  { label: "Link URL", name: "linkURL", widget: "string" },
+                ],
+            }
       - name: "about"
         file: "src/pages/about/index.md"
         label: "About"
         fields:
-          - { label: "Template key", name: "templateKey", widget: "hidden", default: "about-page" }
+          - {
+              label: "Template key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "about-page",
+            }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Secondary Title", name: "secondTitle", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Image", name: "image", widget: "image" }
           - { label: "Path", name: "path", widget: "hidden", default: "/about" }
           - { label: "Menu Label", name: "menuLabel", widget: "string" }
-          - { label: "Menu Order", name: "menuIndex", widget: "number", valueType: "int", default: 2 }
+          - {
+              label: "Menu Order",
+              name: "menuIndex",
+              widget: "number",
+              valueType: "int",
+              default: 2,
+            }
       - name: "press"
         file: "src/pages/press/index.md"
         label: "Press"
         fields:
-          - { label: "Template key", name: "templateKey", widget: "hidden", default: "press-page" }
+          - {
+              label: "Template key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "press-page",
+            }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Path", name: "path", widget: "hidden", default: "/press" }
           - { label: "Menu Label", name: "menuLabel", widget: "string" }
-          - { label: "Menu Order", name: "menuIndex", widget: "number", valueType: "int", default: 4 }
+          - {
+              label: "Menu Order",
+              name: "menuIndex",
+              widget: "number",
+              valueType: "int",
+              default: 4,
+            }
           - { label: "Excerpt", name: "excerpt", widget: "markdown" }
       - name: "speaking"
         file: "src/pages/speaking/index.md"
         label: "Speaking"
         fields:
-          - { label: "Template key", name: "templateKey", widget: "hidden", default: "speaking-page" }
+          - {
+              label: "Template key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "speaking-page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Path", name: "path", widget: "hidden", default: "/speaking" }
+          - {
+              label: "Path",
+              name: "path",
+              widget: "hidden",
+              default: "/speaking",
+            }
           - { label: "Menu Label", name: "menuLabel", widget: "string" }
-          - { label: "Menu Order", name: "menuIndex", widget: "number", valueType: "int", default: 3 }
+          - {
+              label: "Menu Order",
+              name: "menuIndex",
+              widget: "number",
+              valueType: "int",
+              default: 3,
+            }
           - { label: "Excerpt", name: "excerpt", widget: "markdown" }
       - name: "awcerts"
         file: "src/pages/awcerts/index.md"
         label: "Awards/Certs"
         fields:
-          - { label: "Template key", name: "templateKey", widget: "hidden", default: "awcerts-page" }
+          - {
+              label: "Template key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "awcerts-page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Path", name: "path", widget: "hidden", default: "/awcerts" }
+          - {
+              label: "Path",
+              name: "path",
+              widget: "hidden",
+              default: "/awcerts",
+            }
           - { label: "Menu Label", name: "menuLabel", widget: "string" }
-          - { label: "Menu Order", name: "menuIndex", widget: "number", valueType: "int", default: 5 }
+          - {
+              label: "Menu Order",
+              name: "menuIndex",
+              widget: "number",
+              valueType: "int",
+              default: 5,
+            }
           - { label: "Excerpt", name: "excerpt", widget: "markdown" }
       - name: "projects"
         file: "src/pages/projects/index.md"
         label: "Projects"
         fields:
-          - { label: "Template key", name: "templateKey", widget: "hidden", default: "projects-page" }
+          - {
+              label: "Template key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "projects-page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Path", name: "path", widget: "hidden", default: "/projects" }
+          - {
+              label: "Path",
+              name: "path",
+              widget: "hidden",
+              default: "/projects",
+            }
           - { label: "Menu Label", name: "menuLabel", widget: "string" }
-          - { label: "Menu Order", name: "menuIndex", widget: "number", valueType: "int", default: 6 }
+          - {
+              label: "Menu Order",
+              name: "menuIndex",
+              widget: "number",
+              valueType: "int",
+              default: 6,
+            }
           - { label: "Excerpt", name: "excerpt", widget: "markdown" }
       - name: "blog"
         file: "src/pages/blog/index.md"
         label: "Blog"
         fields:
-          - { label: "Template key", name: "templateKey", widget: "hidden", default: "blog-page" }
+          - {
+              label: "Template key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "blog-page",
+            }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Path", name: "path", widget: "hidden", default: "/blog" }
           - { label: "Menu Label", name: "menuLabel", widget: "string" }
-          - { label: "Menu Order", name: "menuIndex", widget: "number", valueType: "int", default: 7 }
+          - {
+              label: "Menu Order",
+              name: "menuIndex",
+              widget: "number",
+              valueType: "int",
+              default: 7,
+            }
           - { label: "Excerpt", name: "excerpt", widget: "markdown" }
       - name: "contact"
         file: "src/pages/contact/index.md"
         label: "Contact"
         fields:
-          - { label: "Template key", name: "templateKey", widget: "hidden", default: "contact-page" }
+          - {
+              label: "Template key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "contact-page",
+            }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Path", name: "path", widget: "hidden", default: "/contact" }
+          - {
+              label: "Path",
+              name: "path",
+              widget: "hidden",
+              default: "/contact",
+            }
           - { label: "Menu Label", name: "menuLabel", widget: "string" }
-          - { label: "Menu Order", name: "menuIndex", widget: "number", valueType: "int", default: 8 }
+          - {
+              label: "Menu Order",
+              name: "menuIndex",
+              widget: "number",
+              valueType: "int",
+              default: 8,
+            }
           - { label: "Excerpt", name: "excerpt", widget: "markdown" }
   - name: "press"
     label: "Press"
@@ -155,7 +270,12 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Excerpt", name: "excerpt", widget: "markdown" }
-      - { label: "Screenshot", name: "thumbnail", widget: "image", allow_multiple: false }
+      - {
+          label: "Screenshot",
+          name: "thumbnail",
+          widget: "image",
+          allow_multiple: false,
+        }
       - { label: "URL", name: "url", widget: "string", required: false }
   - name: "speaking"
     label: "Speaking"
@@ -171,9 +291,25 @@ collections:
       - { label: "Event Name", name: "event", widget: "string" }
       - { label: "Event Location", name: "location", widget: "string" }
       - { label: "URL", name: "url", widget: "string", required: false }
-      - { label: "Slide URL", name: "slideUrl", widget: "string", required: false }
-      - { label: "Video URL", name: "videoUrl", widget: "string", required: false }
-      - { label: "Is Past?", name: "isPast", widget: "boolean", default: false, required: false }
+      - {
+          label: "Slide URL",
+          name: "slideUrl",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Video URL",
+          name: "videoUrl",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Is Past?",
+          name: "isPast",
+          widget: "boolean",
+          default: false,
+          required: false,
+        }
   - name: "awcerts"
     label: "Awards/Certs"
     extension: "markdown"
@@ -185,8 +321,18 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Excerpt", name: "excerpt", widget: "markdown" }
-      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
-      - { label: "Screenshot", name: "thumbnail", widget: "image", allow_multiple: false }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          required: false,
+        }
+      - {
+          label: "Screenshot",
+          name: "thumbnail",
+          widget: "image",
+          allow_multiple: false,
+        }
       - { label: "URL", name: "url", widget: "string", required: false }
       - label: "Type"
         name: "type"
