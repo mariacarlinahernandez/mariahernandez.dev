@@ -1,8 +1,8 @@
 ---
-title: placeholder
-date: 2018-12-04T06:00:00.726Z
-excerpt: >-
-  Lorem Ipsum
-thumbnail: /assets/placeholder.png
-url: "https://dev.to/makahernandez"
+title: Conexiones Podcast
+date: 2020-03-09T13:00:00.000Z
+excerpt: I chatted with Hugo Castellano of Conexiones about my career path, and
+  tech communities in Medellin, Colombia.
+thumbnail: assets/cnxs67-episode-image-square-maka-hernandez-400x400-3-300x300.jpg
+url: https://conexiones.io/makahernandez/
 ---
