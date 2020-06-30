@@ -1,7 +1,7 @@
 ---
 title: mariahernandez.dev
 author: Maria Hernández
-description: "Maria is a maker at heart. With a background in Electrical Engineering, she is constantly learning, sharing, and experimenting with the latest IoT technologies out there."
+description: "Maria is an IoT developer and passionate maker who loves to tinker with the latest IoT technologies out dare. She's also the organizer of IoT Medellin - a tech community that brings together IoT enthusiasts to share knowledge."
 copyrightYear: "2020"
 socialLinks:
   - icon: github
