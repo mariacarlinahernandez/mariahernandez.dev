@@ -1,9 +1,0 @@
----
-title: Lorem Ipsum
-excerpt: |-
-  lorem ipsum
-date: 2018-04-08T17:28:10.664Z
-thumbnail: /assets/placeholder.png
-url: ""
-type: cert
----
