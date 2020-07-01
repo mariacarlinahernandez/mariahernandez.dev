@@ -2,7 +2,7 @@
 templateKey: about-page
 title: Hi, I'm Maria!
 secondTitle: IoT Developer | Maker | Community Builder
-image: /assets/avatar.jpg
+image: assets/mariahernandez-home.png
 path: /about
 menuLabel: About
 menuIndex: 2
