@@ -159,32 +159,6 @@ collections:
               default: 3,
             }
           - { label: "Excerpt", name: "excerpt", widget: "markdown" }
-      - name: "awcerts"
-        file: "src/pages/awcerts/index.md"
-        label: "Awards/Certs"
-        fields:
-          - {
-              label: "Template key",
-              name: "templateKey",
-              widget: "hidden",
-              default: "awcerts-page",
-            }
-          - { label: "Title", name: "title", widget: "string" }
-          - {
-              label: "Path",
-              name: "path",
-              widget: "hidden",
-              default: "/awcerts",
-            }
-          - { label: "Menu Label", name: "menuLabel", widget: "string" }
-          - {
-              label: "Menu Order",
-              name: "menuIndex",
-              widget: "number",
-              valueType: "int",
-              default: 5,
-            }
-          - { label: "Excerpt", name: "excerpt", widget: "markdown" }
       - name: "projects"
         file: "src/pages/projects/index.md"
         label: "Projects"
@@ -310,36 +284,6 @@ collections:
           default: false,
           required: false,
         }
-  - name: "awcerts"
-    label: "Awards/Certs"
-    extension: "markdown"
-    folder: "content/awcerts"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    editor:
-      preview: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Excerpt", name: "excerpt", widget: "markdown" }
-      - {
-          label: "Publish Date",
-          name: "date",
-          widget: "datetime",
-          required: false,
-        }
-      - {
-          label: "Screenshot",
-          name: "thumbnail",
-          widget: "image",
-          allow_multiple: false,
-        }
-      - { label: "URL", name: "url", widget: "string", required: false }
-      - label: "Type"
-        name: "type"
-        widget: "select"
-        options:
-          - { label: "Award", value: "awards" }
-          - { label: "Certification", value: "cert" }
   - name: "projects"
     label: "Projects"
     extension: "markdown"
