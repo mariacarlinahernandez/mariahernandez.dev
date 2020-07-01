@@ -1,12 +1,10 @@
 ---
 templateKey: home-page
-title: Maka!
+title: Hey, it's Maka!
 headingBg: /assets/pandasecurity-iot-illustration.jpg
-profileImg: /assets/mariahernandez.png
-heading: Hi, I'm Maria!
-headline: Maria is a maker at heart. With a background in Electrical
-  Engineering, she is constantly learning, sharing and experimenting with the
-  latest IoT technologies out there.
+profileImg: /assets/avatar.jpg
+heading: mariahernandez.dev
+headline: IoT Developer / System Integration / Hardware
 menuLabel: Home
 menuIndex: 1
 socialLinks:
