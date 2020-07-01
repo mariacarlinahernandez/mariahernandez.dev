@@ -3,8 +3,9 @@ title: Complete IoT LoRaWAN Solution Using The Things Network
 date: 2019-05-16T03:13:37.891Z
 description: Set up your SODAQ ONE V3 board to manage uplink and downlink
   messages with Ubidots using TTN as LoRaWAN network.
-image: assets/ttn-n-ubidots.png
+image: /assets/ttn-n-ubidots.png
 ---
+
 Original source: https://www.hackster.io/mariacarlinahernandez/complete-iot-lorawan-solution-using-the-things-network-9956ac
 
 ![](https://downloads.intercomcdn.com/i/o/105394700/1789f86cbfd666e816b21dd3/cl682frfYlZ7c2gz3gqg1nUV1looTPBnw6g3-cvr5yQVzMX3zeALQgPGyDZ_FzM2PDpcKTv4BsgsPFm-NnSQyB4PElpeY_eWoG1569nRlq7NmTEeAf7ZRFvl3WiSwhGfVeylpC6P)

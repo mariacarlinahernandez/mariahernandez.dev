@@ -3,8 +3,9 @@ title: SONOFF RF Bridge (433MHz) Hack using Tasmota
 date: 2019-10-04T03:11:27.417Z
 description: I decided to go further and hack the brain of SONOFF products, to
   create my own solutions at a low price.
-image: assets/tasmota_nodered.png
+image: /assets/tasmota_nodered.png
 ---
+
 Original Source: https://ubidots.com/blog/sonoff-rf-bridge-433mhz-hack-using-tasmota/
 
 [SONOFF](https://sonoff.tech/) devices allow anyone to turn different spaces such as traditional homes and offices into  smart spaces at a low price. They provide a variety of wireless products for controlling and monitoring solutions, which are suitable to build an Internet of Things (IoT) POC without having to spend hundreds of dollars.

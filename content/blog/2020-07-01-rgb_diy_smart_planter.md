@@ -2,8 +2,9 @@
 title: RGB DIY Smart Planter
 date: 2019-09-15T17:00:00.000Z
 description: RGB DIY Smart Planter integrated with Ubidots
-image: assets/smart-planter.png
+image: /assets/smart-planter.png
 ---
+
 Original Source: https://ubidots.com/blog/rgb-smart-planter/
 
 A few weeks ago I decided to buy a succulent for my office desk only because of the benefits they can bring to the environment. In case you don't know, growing succulents or cactuses can benefit you in multiple ways, they help to purify the air, improve humidity of the spaces, and add fresh oxygen to the environment
