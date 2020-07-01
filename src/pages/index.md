@@ -1,8 +1,8 @@
 ---
 templateKey: home-page
 title: Maka!
-headingBg: /assets/hero.jpg
-profileImg: /assets/avatar.jpg
+headingBg: assets/pandasecurity-iot-illustration.jpg
+profileImg: assets/mariahernandez.png
 heading: Hi, I'm Maria!
 headline: Maria is a maker at heart. With a background in Electrical
   Engineering, she is constantly learning, sharing and experimenting with the
