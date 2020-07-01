@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `mariahernandez.dev`,
     author: `Maria Hernández`,
-    description: `Maria is a maker at heart. With a background in Electrical Engineering, she is constantly learning, sharing, and experimenting with the latest IoT technologies out there.`,
+    description: `Maria is an IoT developer and passionate maker who loves to tinker with the latest IoT technologies out dare. She's also the organizer of IoT Medellin - a tech community that brings together IoT enthusiasts to share knowledge.`,
     image: "/assets/avatar.jpg",
     siteUrl: `https://mariahernandez.dev/`,
     social: {
@@ -43,13 +43,6 @@ module.exports = {
       options: {
         path: `${__dirname}/content/speaking`,
         name: `speaking`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/awcerts`,
-        name: `awcerts`,
       },
     },
     {
