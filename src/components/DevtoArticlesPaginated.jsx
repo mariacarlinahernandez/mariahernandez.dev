@@ -50,7 +50,7 @@ class DevtoArticlesPaginated extends React.Component {
   fetchPageNumbers = () => {
     const { totalPages, maxPages } = this.state
 
-    if (totalPages <= 1) return null
+    if (totalPages <= 0) return []
 
     const lastPage = Math.max(1, Math.min(maxPages, totalPages))
     return range(1, lastPage)
